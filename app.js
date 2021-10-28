@@ -32,14 +32,14 @@ app.stage.addChild(stuffContainer);
 
 // create an array of image ids..
 const fruits = [
-    'examples/assets/rt_object_01.png',
-    'examples/assets/rt_object_02.png',
-    'examples/assets/rt_object_03.png',
-    'examples/assets/rt_object_04.png',
-    'examples/assets/rt_object_05.png',
-    'examples/assets/rt_object_06.png',
-    'examples/assets/rt_object_07.png',
-    'examples/assets/rt_object_08.png',
+    './rt_object_01.png',
+    './rt_object_02.png',
+    './rt_object_03.png',
+    './rt_object_04.png',
+    './rt_object_05.png',
+    './rt_object_06.png',
+    './rt_object_07.png',
+    './rt_object_08.png',
 ];
 
 // create an array of items
