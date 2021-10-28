@@ -1,6 +1,6 @@
 const app = new PIXI.Application();
 
-const app = new Application({
+app = new Application({
     width: 500,
     height: 500,
     antialias: true
