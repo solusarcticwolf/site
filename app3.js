@@ -14,12 +14,12 @@ const starTexture = PIXI.Texture.from('./plumbus.png');
 
 const starAmount = 500;
 let cameraZ = 0;
-const fov = 100;
+const fov = 5;
 const baseSpeed = 0.025;
 let speed = 0;
 let warpSpeed = 0;
-const starStretch = 3;
-const starBaseSize = 0.05;
+const starStretch = 10;
+const starBaseSize = 0.20;
 
 
 // Create the stars
@@ -56,7 +56,7 @@ setInterval(() => {
 // Listen for animate update
 app.ticker.add((delta) => {
     // Simple easing. This should be changed to proper easing function when used for real.
-    speed += (warpSpeed - speed) / 20;
+    speed += (warpSpeed - speed) / 10;
     cameraZ += delta * 10 * (speed + baseSpeed);
     for (let i = 0; i < starAmount; i++) {
         const star = stars[i];
