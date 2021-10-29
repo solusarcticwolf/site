@@ -1,7 +1,7 @@
 const app = new PIXI.Application({
   height: "100%",
   width: "100%",
-  autoResize: false,
+  autoResize: true,
 });
 document.body.appendChild(app.view);
 
