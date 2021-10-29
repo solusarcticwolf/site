@@ -2,7 +2,7 @@ const app = new PIXI.Application();
 document.body.appendChild(app.view);
 
 // Get the texture for rope.
-const starTexture = PIXI.Texture.from('examples/assets/star.png');
+const starTexture = PIXI.Texture.from('./star.png');
 
 const starAmount = 1000;
 let cameraZ = 0;
