@@ -1,7 +1,3 @@
-window.addEventListener("resize", function() {
-  app.renderer.resize(window.innerWidth, window.innerHeight);
-});
-
 const app = new PIXI.Application({
   height: "100%",
   width: "100%",
