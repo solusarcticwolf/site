@@ -1,6 +1,6 @@
 const app = new PIXI.Application({
     autoResize: true,
-  resolution: devicePixelRatio
+    resolution: devicePixelRatio
 });
 document.body.appendChild(app.view);
 
