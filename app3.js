@@ -3,14 +3,14 @@ window.addEventListener("resize", function() {
 });
 
 const app = new PIXI.Application({
-  height: 900,
-  width: 1600,
+  height: 1080,
+  width: 1920,
   autoResize: true,
 });
 document.body.appendChild(app.view);
 
 // Get the texture for rope.
-const starTexture = PIXI.Texture.from('./star.png');
+const starTexture = PIXI.Texture.from('./plumbus.png');
 
 const starAmount = 1000;
 let cameraZ = 0;
