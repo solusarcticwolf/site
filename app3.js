@@ -3,7 +3,7 @@ window.addEventListener("resize", function() {
 });
 
 const app = new PIXI.Application({
-    autoResize: true,  
+    autoResize: false,
 });
 document.body.appendChild(app.view);
 
