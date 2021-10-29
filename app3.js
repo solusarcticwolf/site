@@ -4,8 +4,8 @@ window.addEventListener("resize", function() {
 
 const app = new PIXI.Application({
     autoResize: true,
-    height: 1280,
-    width: 720,
+    width: 1280,
+    height: 720,   
 });
 document.body.appendChild(app.view);
 
