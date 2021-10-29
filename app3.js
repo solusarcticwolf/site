@@ -14,11 +14,11 @@ const starTexture = PIXI.Texture.from('./plumbus.png');
 
 const starAmount = 1000;
 let cameraZ = 0;
-const fov = 20;
+const fov = 10;
 const baseSpeed = 0.025;
 let speed = 0;
 let warpSpeed = 0;
-const starStretch = 5;
+const starStretch = 3;
 const starBaseSize = 0.05;
 
 
