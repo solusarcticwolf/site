@@ -1,5 +1,7 @@
 const app = new PIXI.Application({
-    width: 1920, height: 1080});
+    autoResize: true,
+  resolution: devicePixelRatio
+});
 document.body.appendChild(app.view);
 
 // Get the texture for rope.
