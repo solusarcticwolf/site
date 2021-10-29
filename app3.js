@@ -1,6 +1,11 @@
+window.addEventListener("resize", function() {
+  app.renderer.resize(window.innerWidth, window.innerHeight);
+});
+
 const app = new PIXI.Application({
     autoResize: true,
-    resolution: devicePixelRatio
+    height: 1280,
+    width: 720,
 });
 document.body.appendChild(app.view);
 
