@@ -12,14 +12,14 @@ document.body.appendChild(app.view);
 // Get the texture for rope.
 const starTexture = PIXI.Texture.from('./plumbus.png');
 
-const starAmount = 1000;
+const starAmount = 600;
 let cameraZ = 0;
-const fov = 5;
+const fov = 10;
 const baseSpeed = 0.025;
 let speed = 0;
 let warpSpeed = 0;
 const starStretch = 2;
-const starBaseSize = 0.10;
+const starBaseSize = 0.15;
 
 
 // Create the stars
